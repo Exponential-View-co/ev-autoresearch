@@ -39,7 +39,7 @@ This harness adds:
 | v8 | Population parallelism (3 threads) | 7.72 | +0.07 |
 | v9 | Tournament-time divergence check | 7.74 | +0.02 |
 | v10 | Inter-tournament convergence monitoring | 7.82 | +0.08 |
-| v11 | Domain-configurable fingerprint vocabularies | TBD | — |
+| v11 | Domain-configurable fingerprint vocabularies | 7.99 | +0.17 |
 
 **Pattern:** Structural mechanism changes produce large jumps (v1: +5.11, v3: +0.41). Reliability and monitoring additions produce small but real gains. One discard (v5) — the mechanism was sound but the trigger was too narrow.
 
